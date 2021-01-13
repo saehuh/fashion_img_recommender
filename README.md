@@ -42,6 +42,7 @@ Below is the evolution of loss and accuray over 150 epochs of training.
 
 
 As a result, we got a model that classifies images from our dataset into 141 different unique classes with 80% accuracy.
+
 ![CNN_Classification](/img/cnn_classification.png)
 
 In the recommender system, we use this model to classify an image and I created a list of similar products using the identified article type as the label data. Once an image is classified, the recommender system checks for other images that belong to the same class and ranks them by similarities caculated using either vector distance or cosine similarities.
